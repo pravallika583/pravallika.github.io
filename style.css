@@ -1,0 +1,52 @@
+.bg-container{
+    background-color: greenyellow;
+    height:100vh;
+    padding:25px;
+    
+}
+.formdata{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.heading{
+    text-align: center;
+    text-decoration:underline;
+}
+.first{
+    display:flex;
+    flex-direction: column;
+}
+.second{
+    display:flex;
+    flex-direction: column; 
+}
+.margin{
+    margin:10px;
+}
+label{
+    color:white;
+}
+input{
+    background-color:transparent;
+    border-color:white;
+    border-width:2px;
+}
+.buttons{
+    text-align: center;
+}
+.button{
+    color:black;
+    background-color:transparent;
+    border-color:black;
+    padding-right:30px;
+    margin:6px;
+}
+.invalid{
+    color:red;
+    visibility:hidden;
+}
+.name{
+    color:red;
+    visibility:hidden;
+}

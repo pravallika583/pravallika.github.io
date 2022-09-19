@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css"/>
+        <script src="javas.js"></script>
+    </head>
+    <body>
+        <div class="bg-container">
+        <h1 class="heading">Yumm Restuarent</h1>
+        <form class="formdata">
+            <div class="first">
+                <div class="margin">
+                <label>First Name: </label>
+                <input type="text" name="nname" id="firstname"/>
+                <label id="text2" class="name">Invalid</label>
+                </div>
+                <div class="margin">
+                    <label>DOB: </label>
+                    <input type="date" name="date" id="txtDate"/>
+                </div>
+                <div class="margin">
+                    <label>Address: </label>
+                    <input type="textarea" id="area" name="area" rows="5" cols="10"/>
+                </div>
+              
+            </div>
+            <div class="second">
+                <div class="margin">
+                    <label>Last Name: </label>
+                    <input type="text" name="sname" id="lastname"/>
+                    <label id="text3" class="name">Invalid</label>
+                    </div>
+                    <div class="margin">
+                        <label>City: </label>
+                        <input list="browsers" id="browser" name ="browser"/>
+                        <datalist id="browsers">
+                            <option value="Chennai">
+                            <option value="Hyderabad">
+                            <option value="Guntur">
+                            <option value="Vijayawada">
+                            <option value="Banglore">
+                          </datalist>
+                    </div>
+                    <div class="margin">
+                        <label >Mobile No: </label>
+                        <input id="mobileno" name="mobile" type="text"required/>
+                        <label id="text1" class="invalid">Invalid</label>
+                    </div>
+            </div>
+        </form>
+        <div class="buttons">
+        <button class="button" onclick="reset()">Reset</button>
+        <button class="button" onclick="submit()">Submit</button>
+    </div>
+    </div>
+    </body>
+</html>
